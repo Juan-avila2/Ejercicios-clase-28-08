@@ -1,0 +1,8 @@
+# Escribir un programa en Java que lea un número entero por el teclado e imprima todos los número impares menores que él.
+
+numero = int(input("ingrese un numero entero"))
+
+while numero > 0:
+    if numero%2 != 0:
+        print(numero) 
+    numero -= 1

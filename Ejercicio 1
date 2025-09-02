@@ -1,0 +1,9 @@
+# Escribir un programa en python que lea un número entero desde teclado y realiza la suma de los 100 números siguientes, mostrando el resultado en pantalla.
+
+numero = float(input("Ingrese un número entero"))
+
+suma = 1
+
+for i in range (1, 101):
+    suma += numero + i
+print(suma)
