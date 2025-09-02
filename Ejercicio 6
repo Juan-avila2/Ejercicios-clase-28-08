@@ -1,0 +1,13 @@
+#Escriba un programa que lea temperaturas expresadas en grados Fahrenheit y las convierta a grados Celsius mostrándola.
+
+while True:
+    farenheit = float(input("ingrese una temperatura en grados Farenheit: "))
+    
+    celcius =  (5/9) * (farenheit - 32)
+    
+    if farenheit == 999:
+        print("Error, programa finalizado")
+        break
+
+    print( farenheit, "°F equivalen a ", celcius, "°C")
+
