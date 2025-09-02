@@ -1,1 +1,9 @@
 #Escriba un programa que lea tres números enteros positivos, y que calcule e imprima en pantalla el menor y el mayor de todos ellos.
+#e
+numero = float(input("Ingrese un número entero"))
+
+suma = 1
+
+for i in range (1, 101):
+    suma += numero + i
+print(suma)
